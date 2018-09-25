@@ -1,0 +1,412 @@
+/*General styles*/
+* {
+    list-style: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 7px;
+    text-align: center;
+}
+
+li {
+    padding: 3px;
+}
+
+i {
+    padding: 0.4em;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+/* main body */
+.heyyoungworld {
+    padding: 0;
+    margin-bottom: 0; 
+}
+
+.my-icons {
+    color: grey; 
+    display: block;  
+}
+
+
+
+/*top bar navigation*/
+.eldernav {
+    display: flex;
+    
+}
+
+.searchbar-w-icon {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.searching {
+    width: 100px;
+    height: 23px;
+
+}
+
+.topleftblock {
+    display: flex;
+}
+
+.spongestar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.numberunreademails img {
+    height: 40%;
+    width: 60%;
+    padding-top: 1em;
+    align-content:center;
+    padding-left: 0;
+    padding-top: 1.2em;
+}
+
+.young-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbartop {
+    padding: 0;
+}
+
+.nineball {
+    display: inline-flex;
+    padding-top: 1.2em;
+    height: 40%;
+    width: 95%;
+    padding-right: 2em;
+}
+
+
+
+/*css for the left side of the page*/
+.teamleftside {
+    width: 30%;
+    height: 100vh;
+    margin-right: 0.5em;
+}
+ 
+.entire-left {
+    padding: 0;
+    display: inline-flex;
+    width: 30vw;
+}
+
+.topleftofblock {
+    text-align: left;
+    display: inline;
+    font-size: 10px;
+}
+
+.googlemob {
+    height: 100%;
+    width: 100%;
+    margin-left: 13px;
+    margin-right: 5px;
+    padding-right: 3px;
+}
+
+.googlebartop {
+    display: inline-flex;
+    height: 1vh;
+    top: 40px; 
+    bottom: 20px; 
+    width: 30vw;
+    vertical-align: top;
+}
+
+.beeblack {
+    background-color: #2C3335;
+    font-family: 'Roboto', sans-serif;
+    width: 30vw;
+    height: 100vh;
+    display: inline-flex;
+    overflow-x: hidden;
+}
+
+.beeblack a {
+    color: grey;
+}
+
+.lboxicons {
+    padding: 0.3em;
+}
+
+.listitems-top, .listitems-bottom, .entire-leftbox {
+    color: white;
+}  
+
+.list a:hover {
+    color: white;
+}
+
+.ma-feet li {
+    display: inline;
+    text-align: center;
+}
+
+.ma-feet ul {
+    margin-top: 0px;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-text li {
+    display: block;
+}
+
+.googlebarbottom{
+    width: 30vw;
+}
+
+.weliketopartyscreen, .onlyshowwithdesky {
+    visibility: hidden;
+    display: none;
+} 
+
+
+
+/*this is the css for the centerpiece*/
+.left-and-centerpiece {
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+}
+
+.rowwiththeflow{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.centerpiece ul {
+    text-align: left;
+}
+
+
+.centerpiece img {
+    display: inline-flex;
+    height: 50%;
+    width: 50%;
+}
+
+.dude ul {
+    padding: 0;
+}
+
+.boxC {
+    margin-right: 2em;
+}
+
+/*for desktop screens*/
+@media screen and (min-width: 550px) {
+
+    /*nav bar icons and info only for desktop*/
+    .numberunreademails {
+
+        margin-top: 7px;
+        padding: 0;
+        display: inline-flex;
+    }
+
+    .emaillink {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    }
+
+    .numberunreademails {
+        display: inline;
+    }
+
+    .nineball{
+        display: inline;
+    }
+
+    .youngnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .searching {
+        width: 150px;
+        height: 10px;
+    }
+
+    /*left side of the screen*/
+    .googlemob {
+      content: url(googledesktop2.png); 
+      height: 25%;
+      width: 17%;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+
+    .beeblack {
+        background-color: #2C3335;
+        font-family: 'Roboto', sans-serif;
+        width: 30vw;
+        height: 100vh;
+        display: inline-flex;
+    }
+
+    .my-icons {
+        display: inline;  
+        align-content: flex-start;
+    }
+
+
+    li {
+        padding: 5px;
+        margin: 2px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    ul {
+        text-align: left;
+    }
+
+
+
+    /*boxes that contain and flex-es the content in center*/
+    .centerpiece {
+        display: inline-flex;
+        flex-direction: row-reverse;
+    }
+
+    .onlyshowinmobile {
+        visibility: hidden;
+        display: none;
+        }
+    
+
+    .col-me-maybe {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .wow {
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 1em;
+    }
+
+    .boxB {
+        display: inline-flex;
+        flex-direction: column;
+
+    }
+
+    .boxC {
+        display: inline-flex;
+        flex-direction: column;
+
+    } 
+
+    .rowwiththeflow {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .sect-header {
+        padding-bottom: 1em;
+    }
+
+    .teamdeskyonly {
+        display: flex;
+        flex-direction: row;
+        justify-items: flex-start;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        flex-wrap: wrap;
+
+
+    }
+
+    .centerpiece img {
+        display: inline-flex;
+        height: 70%;
+        width: 40%;
+    }
+    
+    .imageresults div {
+        display: inline-flex;
+
+    }
+
+    .boxC {
+        margin-right: 0;
+    }
+
+
+
+    .entire-left {
+        width: 100%;
+
+    }
+
+    .beeblack {
+        width: 95%;
+    }
+
+
+/* general info for desktop only*/
+    .weliketopartyscreen, .onlyshowwithdesky {
+        visibility: visible;
+        display: inline-flex;
+    }
+
+    .onlyshowwithdesky ul {
+        padding: 0;
+        justify-items: left;
+    }
+
+    .onlyshowdesky li {
+        padding: 0;
+    }
+
+@media screen and (min-width: 850px) {
+
+    /*un-cooperative footer text in left box*/
+    .footer-text li {
+        display: inline;
+    } 
+
+    .beeblack {
+        width: 75%;
+    }
+
+}
+
+
+
+
+
+
+
+
+}
